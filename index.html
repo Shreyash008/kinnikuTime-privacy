@@ -89,8 +89,11 @@
 
   <h2>Third-party services we contact</h2>
   <ul>
-    <li><strong>Food search &amp; barcodes</strong> — USDA FoodData Central and Open Food Facts.
-      Barcode scanning runs in Google Play Services on your device.</li>
+    <li><strong>Food search &amp; barcodes</strong> — Kinniku's food service on Cloudflare, which asks USDA
+      FoodData Central for you and holds a copy of Open Food Facts, and Open Food Facts
+      directly. Your searches and scanned barcodes are sent with your sign-in so we can
+      limit misuse; they are not stored with your account. Barcode scanning runs in Google
+      Play Services on your device.</li>
     <li><strong>Accounts &amp; sign-in</strong> — Supabase, and Google if you use Google sign-in.</li>
     <li><strong>Voice logging</strong> — your device's speech recognition service (typically Google's).</li>
   </ul>
